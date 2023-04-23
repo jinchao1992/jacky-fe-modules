@@ -19,9 +19,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "scripts": {
-    "test": "node ./__tests__/test-01.test.js"
-  },
   "bugs": {
     "url": "https://github.com/jinchao1992/jacky-fe-modules/issues"
   }
