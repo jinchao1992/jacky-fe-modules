@@ -1,0 +1,25 @@
+{
+  "name": "test-01",
+  "version": "0.0.1",
+  "description": "test 01",
+  "author": "jinchao1992 <jinchaophp@126.com>",
+  "homepage": "https://github.com/jinchao1992/jacky-fe-modules#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinchao1992/jacky-fe-modules.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/test-01.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/jinchao1992/jacky-fe-modules/issues"
+  }
+}
