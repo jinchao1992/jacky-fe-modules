@@ -12,6 +12,7 @@
     "clean": "lerna run clean",
     "build": "lerna bootstrap --hoist && lerna run clean && lerna run build",
     "publish": "lerna publish from-package --yes --no-verify-access",
-    "test": "lerna run test"
+    "test": "lerna run test",
+    "version": "lerna version --no-git-tag-version"
   }
 }
