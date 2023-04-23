@@ -18,7 +18,6 @@ jobs:
 
       - name: Npm Install
         run: |
-          npm cache clean --force
           npm install
           npm run build
           npm run test

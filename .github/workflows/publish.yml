@@ -16,7 +16,6 @@ jobs:
 
       - name: Npm Publish
         run: |
-          npm cache clean --force
           npm install
           npm run build
           npm run publish
