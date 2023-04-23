@@ -1,10 +1,10 @@
 {
-  "name": "test-01",
+  "name": "@jacky-fe-modules/test-01",
   "version": "0.0.1",
   "description": "test 01",
   "author": "jinchao1992 <jinchaophp@126.com>",
   "homepage": "https://github.com/jinchao1992/jacky-fe-modules#readme",
-  "license": "ISC",
+  "license": "MIT",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -15,6 +15,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jinchao1992/jacky-fe-modules.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "test": "node ./__tests__/test-01.test.js"
