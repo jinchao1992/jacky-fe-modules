@@ -16,7 +16,7 @@ jobs:
 
       - name: Npm Publish
         run: |
-          npm install
+          npm ci
           npm run build
           npm run publish
         env:
